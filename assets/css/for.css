@@ -1,15 +1,12 @@
 .for{
-    font-size: 1.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    padding: 20px;
 }
 .for-txt h1{
-    text-transform: uppercase;
-    color:#D68A00 ;
-
+    width: 100%;
+    font-size: 3.7rem;
+    color:#D68A00;
     text-align: center;
 }
 
