@@ -1,4 +1,6 @@
 main{
+    width: 100%;
+    height: 100%;
 }
 
 .home-page{
@@ -11,7 +13,8 @@ main{
     text-align: center;
     color: #fff;
     padding-bottom: 20px;
-
+    font-family: poppins;
+    font-weight: bolder;
 }
 
 .home-txt-btn{
@@ -59,7 +62,7 @@ main{
     
 }
 .home-btn{
-    width: 450px;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,7 +145,6 @@ scale: 1.1
     font-size: 3rem;
     color:#D68A00;
     margin-bottom: 10px;
-    width: 420px;
 }
 .txt-sobre p{
     color: white;
@@ -202,15 +204,25 @@ scale: 1.1
 }
 
 .whats-txt{
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .whats img{
    
     width: 300px;
     height: 300px;
+}
+
+.whats-txt a{
+    width: 360px;
+
+}
+#btn-whats{
+    width: 95%;
 }
 #btn-whats p {
     width: 350px;
@@ -225,4 +237,7 @@ scale: 1.1
     font-size: 2rem;
     font-weight: 700;
     margin: 30px 0px;
+}
+#insta a{
+    width: 95%;
 }

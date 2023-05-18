@@ -46,7 +46,7 @@
 
 
 #btn-whats p {
-    width: 400px;
+    width: 340px;
     height: 50px;
     display: flex;
     gap: 5px;
@@ -62,30 +62,29 @@
 
 #btn-whats p i{
     font-size: 3rem;
+    
 }
 
-.social-icon{
-
+#insta{
     bottom: 0;  
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.social-icon p{
+#insta a{
     text-align: center;
     display: flex;
     gap: 10px;
-    width: auto;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 10px 15px 0px;
 }
-.social-icon i{
+#insta i{
     font-size: 2.5rem;
 }
-.social-icon a{
+#insta a{
     color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
-.social-icon a:hover{
+#insta a:hover{
     text-decoration: underline;
 }
