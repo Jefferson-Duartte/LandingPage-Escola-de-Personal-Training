@@ -1,0 +1,40 @@
+.cards-info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: black;
+    color:white;
+    padding: 100px 0px;
+
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+ 
+}
+.card-info img{
+    width: 70px;
+}
+
+
+.card-info h3{
+    margin-top: 15px;
+    font-size: 2.3rem;
+}
+
+.card-info p{
+
+    width: 300px;
+}
