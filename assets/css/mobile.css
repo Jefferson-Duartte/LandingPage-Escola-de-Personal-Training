@@ -13,8 +13,6 @@ main{
     text-align: center;
     color: #fff;
     padding-bottom: 20px;
-    font-family: poppins;
-    font-weight: bolder;
 }
 
 .home-txt-btn{
@@ -30,24 +28,23 @@ main{
 .home-page h1{
 
     width: 100%;
-    font-size: 3.5rem;
-    font-family: mreyboll;
-    font-weight: 400;
+    font-size: 2.7rem;
+    font-family: poppins;
+    font-weight: bolder;
     color: #D68A00;
     text-align: center;
     display: flex;
     flex-direction: column;
-
+    padding: 0px 10px;
     text-align: center;
     margin: 0;
 }
 .home-page h1 span{
     color: #fff;
-    font-family: mreyboll;
-    font-weight: 400;
-    font-size: 4.2rem;
+    font-size: 3.2rem;
     padding: 10px;
-  
+    font-family: poppins;
+    font-weight: bolder;
 }
 .home-page p{
     width: 350px;
