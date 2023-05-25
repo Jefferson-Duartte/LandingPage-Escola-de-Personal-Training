@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/css/for.css">
     <link rel="stylesheet" href="assets/css/modulos.css">
     <link rel="stylesheet" href="assets/css/whats.css">
+    <link rel="stylesheet" href="assets/css/aulas.css">
+    <link rel="stylesheet" href="assets/css/duvidas.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" media= "screen and (max-width:768px)" href="assets/css/mobile.css">
@@ -27,10 +29,13 @@
         <div class="home-page" data-aos="fade-up">
             <div class="home-txt-btn">
                 <h1>VENHA FAZER PARTE DA <br> <span>ESCOLA DE PERSONAL TRAINING</span></h1>
-                <p>Clique no botão de <span id="txt-insc">inscrever-se</span> e garanta sua inscrição agora. </p>
-                <div class="home-btn">
-                    <a id="insc" href="">Inscrever-se</a>
-                       
+                
+                
+                <p id="txt-arrow">Veja mais</p>
+                <div class="arrow">
+                    <span></span> 
+                    <span></span> 
+                    <span></span> 
                 </div>
 
                 
@@ -38,7 +43,7 @@
         
             <div class="fundo-video">
                 <video class="video" autoplay loop muted>
-                    <source src="assets/images/Alexander Athletics Gym Promo Video _ Shot on Panasonic S1H.mp4" type="video/mp4">
+                    <source src="assets/videos/videoplayback.mp4" type="video/mp4">
                 </video>
             </div>
                 
@@ -84,7 +89,7 @@
             </div>
         
         </div>
-
+        <!-- Para quem é a Escola de Personal Training -->
         <div class="for">
 
 
@@ -102,10 +107,10 @@
                 </ul>
             </div>
         </div>
-
+        <!-- Modulos do curso -->
         <div class="modulos" >
 
-            <h1>Alguns dos conteúdos que você terá no curso</h1>
+            <h1 data-aos="fade-up">Alguns dos conteúdos que você terá no curso</h1>
 
             <div class="mod-img">
                 <img data-aos="flip-left" src="assets/images/MEMBROS SUPERIORES.jpg" alt="">
@@ -117,6 +122,10 @@
                 
             </div>
             <a id="insc" href="">Inscrever-se</a>
+        </div>
+        <!-- Imagem aulas -->
+        <div class="aulas-img">
+            <img data-aos="fade-up" src="assets/images/laptop.png" alt="">
         </div>
     
         <div class="whats">
@@ -139,12 +148,60 @@
            </div>
            
         </div>
+
+        <div class="duvidas">
+
+            <div class="duvidas-left">
+            <a id="insc" href="">Inscrever-se</a>
+                <h3>Duvidas Frequentes</h3>
+                <p>Ainda ficou alguma dúvida? <br>
+                Fale com nossa Equipe.</p>
+                <a id="whats" href=""><p>Clique para falar com um consultor <i class="fa-brands fa-whatsapp"></i></p></a>
+            </div>
+
+
+            <div class="faqs">
+
+                <div class="duvidasright">
+
+                   <div class="duvida">
+                    <h3>Quais as formas de pagamento?</h3>
+                    <i class="fa-solid fa-caret-right"></i>
+                   </div>
+
+                   <div class="answer">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium velit, ducimus illum sequi assumenda odio saepe. Earum, nihil architecto! Quisquam quibusdam adipisci eius, corrupti omnis ad! Qui quibusdam veniam eaque?</p>
+                   </div>
+                </div>
+
+
+                <div class="duvidasright">
+                   <div class="duvida">
+                    <h3>Quais as formas de pagamento?</h3>
+                    <i class="fa-solid fa-caret-right"></i>
+                   </div>
+                   <div class="answer">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium velit, ducimus illum sequi assumenda odio saepe. Earum, nihil architecto! Quisquam quibusdam adipisci eius, corrupti omnis ad! Qui quibusdam veniam eaque?</p>
+                   </div>
+                </div>
+                <div class="duvidasright">
+                   <div class="duvida">
+                    <h3>Quais as formas de pagamento?</h3>
+                    <i class="fa-solid fa-caret-right"></i>
+                   </div>
+                   <div class="answer">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium velit, ducimus illum sequi assumenda odio saepe. Earum, nihil architecto! Quisquam quibusdam adipisci eius, corrupti omnis ad! Qui quibusdam veniam eaque?</p>
+                   </div>
+                </div>
+            </div>
+        </div>
         
     </main>
 
  
     <script src="https://kit.fontawesome.com/db11278e41.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/faqs.js"></script>
     <script>
         AOS.init({
             duration: 1000,
