@@ -265,3 +265,23 @@ scale: 1.1
 
     
 }
+
+
+.aulas-img img{
+    width: 100%;
+}
+
+#prev-button, #next-button{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.duvidas{
+    flex-direction: column;
+}
+
+.duvidasright{
+    width: 300px;
+}

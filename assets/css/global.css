@@ -6,13 +6,19 @@
 }
 html{
     font-size: 62.5%;
-
+ 
 }
 
 body{
     background-color: #000;
     color: #fff;
     font-size: 1.6rem;
+    background-image: url(/assets/images/bg-mentoria-teste.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 ::-webkit-scrollbar{
     background-color: #000;

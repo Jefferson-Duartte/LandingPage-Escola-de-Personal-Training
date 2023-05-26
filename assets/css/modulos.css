@@ -46,12 +46,12 @@
     text-decoration: none;
     border-radius: 15px;
     border:  1px solid white;
-    color: white;
+    color: #D68A00;
     transition: 0.3s ease all
 }
 
 .modulos #insc{
-    background-color: #D68A00;
+    background-color:#D68A00;
     color: #000;
     border: none;
     width: 250px;

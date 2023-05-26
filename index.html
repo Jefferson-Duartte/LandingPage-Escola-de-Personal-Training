@@ -16,8 +16,10 @@
     <link rel="stylesheet" href="assets/css/modulos.css">
     <link rel="stylesheet" href="assets/css/whats.css">
     <link rel="stylesheet" href="assets/css/aulas.css">
+    <link rel="stylesheet" href="assets/css/galeria.css">
     <link rel="stylesheet" href="assets/css/duvidas.css">
-    <link rel="shortcut icon" href="assets/images/escola de personal.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="shortcut icon" href="assets/images/escola de personal.webp" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" media= "screen and (max-width:768px)" href="assets/css/mobile.css">
@@ -86,7 +88,7 @@
         
               <div data-aos="fade-up" class="sobre-img">
         
-                <img src="assets/images/escola_personal111.jpeg" alt="Escola de Personal Training" />
+                <img src="assets/images/escola_personal111.webp" alt="Escola de Personal Training" />
             </div>
         
         </div>
@@ -95,7 +97,7 @@
 
 
             <div class="for-img">
-                <img data-aos="fade-up-right" src="assets/images/Camada 0.png" alt="">
+                <img data-aos="fade-up-right" src="assets/images/Camada 0.webp" alt="">
             </div>
 
             <div   class="for-txt">
@@ -113,25 +115,50 @@
 
             <h1 data-aos="fade-up">Alguns dos conteúdos que você terá no curso</h1>
 
-            <div class="mod-img">
-                <img data-aos="flip-left" src="assets/images/MEMBROS SUPERIORES.jpg" alt="">
-                <img data-aos="flip-left"  src="assets/images/ABDÔMEN E CORE.jpg" alt="">
-                <img data-aos="flip-left"  src="assets/images/COXA, GLÚTEO E PANTURRILHA.jpg" alt="">
-                <img data-aos="flip-left"  src="assets/images/MUSCULAÇÃO FEMININA.jpg" alt="">
-                <img data-aos="flip-left"  src="assets/images/PERIODIZAÇÃO PARA HIPERTROFIA.jpg" alt="">
-                <img data-aos="flip-left"  src="assets/images/TREINAMENTO ALTA INTESIDADE.jpg" alt="">
+            <div data-aos="flip-left" class="mod-img">
+                <img  src="assets/images/modulos/MEMBROS SUPERIORES.webp" alt="">
+                <img  src="assets/images/modulos/ABDÔMEN E CORE.webp" alt="">
+                <img  src="assets/images/modulos/COXA, GLÚTEO E PANTURRILHA.webp" alt="">
+                <img  src="assets/images/modulos/MUSCULAÇÃO FEMININA.webp" alt="">
+                <img  src="assets/images/modulos/PERIODIZAÇÃO PARA HIPERTROFIA.webp" alt="">
+                <img  src="assets/images/modulos/TREINAMENTO ALTA INTESIDADE.webp" alt="">
                 
             </div>
             <a id="insc" href="">Inscrever-se</a>
         </div>
         <!-- Imagem aulas -->
         <div class="aulas-img">
-            <img data-aos="fade-up" src="assets/images/laptop.png" alt="">
+            <img data-aos="fade-up" src="assets/images/laptop.webp" alt="">
         </div>
     
+
+        <!-- Galeria de Alunos -->
+        <div class="galeria">
+            <h1>ALUNOS QUE PASSARAM PELA ESCOLA DE PERSONAL</h1>
+            <div class="container-slider">
+            
+                <button id="prev-button">
+                    <img src="assets/images/certificados/arrow-up-340-svgrepo-com (2).svg" alt="">
+                </button>
+                <div class="container-images">
+
+
+                    <img src="assets/images/certificados/certi-sb-1-1024x1024.webp" alt="" class="slider on ">
+                    <img src="assets/images/certificados/WhatsApp-Image-2022-01-30-at-11.28.23-1-1024x1024.webp" alt="" class="slider  ">
+                    <img src="assets/images/certificados/WhatsApp-Image-2022-01-30-at-11.28.25-1024x1024.webp" alt="" class="slider">
+                    <img src="assets/images/certificados/WhatsApp-Image-2022-01-30-at-11.28.24-1024x1024.webp" alt="" class="slider">
+            
+                </div>
+                <button id="next-button">
+                    <img src="assets/images/certificados/arrow-up-340-svgrepo-com (2).svg " alt="">
+                </button>
+            </div>
+        </div>
+
+        <!-- Entre no grupo do Whatsapp -->
         <div class="whats">
     
-           <img data-aos="flip-left"  data-aos-offset="200" src="assets/images/escola de personal.png" alt="">
+           <img data-aos="flip-left"src="assets/images/escola de personal.webp" alt="">
            <div class="whats-txt">
                <h1 data-aos="fade-down">Entre no nosso grupo do <span>WHATSAPP</span></h1>
                 <h3 data-aos="fade-down">Quer ficar ligado em todas as novidades que lançamos?</h3>
@@ -150,6 +177,10 @@
            
         </div>
 
+
+
+
+        <!-- Duvidas -->
         <div class="duvidas">
 
             <div class="duvidas-left">
@@ -167,7 +198,7 @@
 
                    <div class="duvida">
                     <h3>Quais as formas de pagamento?</h3>
-                    <i class="fa-solid fa-caret-right"></i>
+                    <img src="assets/images/arrow-up-340-svgrepo-com (2).svg" alt="">
                    </div>
 
                    <div class="answer">
@@ -179,7 +210,7 @@
                 <div class="duvidasright">
                    <div class="duvida">
                     <h3>Como acesso o contéudo?</h3>
-                    <i class="fa-solid fa-caret-right"></i>
+                    <img src="assets/images/arrow-up-340-svgrepo-com (2).svg" alt="">
                    </div>
                    <div class="answer">
                     <p>O acesso ao Portal do Aluno é enviado para seu e-mail imediatamente após a confirmação do pagamento.</p>
@@ -191,21 +222,29 @@
                 </div>
                 <div class="duvidasright">
                    <div class="duvida">
-                    <h3>Qual número total de horas da Pós?<h3>
-                    <i class="fa-solid fa-caret-right"></i>
+                    <h3>Qual número total de horas da Escola de Personal Training?<h3>
+                    <img src="assets/images/arrow-up-340-svgrepo-com (2).svg" alt="">
                    </div>
                    <div class="answer">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium velit, ducimus illum sequi assumenda odio saepe. Earum, nihil architecto! Quisquam quibusdam adipisci eius, corrupti omnis ad! Qui quibusdam veniam eaque?</p>
+                    <p>X horas</p>
                    </div>
                 </div>
             </div>
         </div>
+
+
+
+        <!-- <footer>
+            <div></div>
+            <div>Desenvolvido por <a href="">Jefferson Duarte</a></div>
+        </footer> -->
         
     </main>
 
  
     <script src="https://kit.fontawesome.com/db11278e41.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/galeria.js"></script>
     <script src="assets/js/faqs.js"></script>
     <script>
         AOS.init({
