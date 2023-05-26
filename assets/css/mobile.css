@@ -57,6 +57,10 @@ main{
     font-weight: 700;
     
 }
+#txt-arrow{
+    top: 83%;
+    left: 50%;
+}
 .home-btn{
     width: auto;
     display: flex;

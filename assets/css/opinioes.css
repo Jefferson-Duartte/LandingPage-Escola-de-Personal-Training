@@ -1,0 +1,9 @@
+.opinioes{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.opinioes img{
+    width: 1000px;
+    height: 700px;
+}
