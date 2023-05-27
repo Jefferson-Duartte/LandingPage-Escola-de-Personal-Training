@@ -4,6 +4,8 @@
     text-align: center;
     gap: 100px;
     padding: 30px;
+    background-color: #ffffff49;
+
 }
 
 .whats-txt{
@@ -21,6 +23,7 @@
     text-transform: uppercase;
     font-size: 3.7rem;
     margin-bottom: 20px;
+    color: white;
 }
 .whats h3{
     font-size: 2.3rem;

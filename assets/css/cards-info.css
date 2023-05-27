@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     gap: 70px;
-    backdrop-filter: blur(50px);
     color:white;
     padding: 100px 0px;
 
@@ -20,7 +19,7 @@
     width: 350px;
     height: 300px;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 10px;
     
 
  

@@ -13,6 +13,7 @@
    
 }
 .duvidas-left{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,8 +67,8 @@
 
 
 #whats{
-   
-    width: 400px;
+    
+    width: 350px;
     height: 50px;
     display: flex;
     align-items: center;
