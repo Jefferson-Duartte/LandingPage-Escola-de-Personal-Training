@@ -1,19 +1,20 @@
 .faqs{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     padding: 30px;
+
     
 }
 .duvidas{
     display: flex;
-    align-items: center;
+   
     justify-content: space-around;
-    height: auto;
+    
+ 
    
 }
 .duvidas-left{
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,44 +26,64 @@
     font-size: 3.5rem;
     color: #D68A00;
     margin-top: 20px;
+    
 }
 .duvidas-left p{
     text-align: center;
     font-weight: 600;
     margin-top: 30px;
 }
-.duvidasright{
-    width: 700px;
+
+.duvida{
+    width: 800px;
+    border: 2px solid #d68b0044;
+    padding: 10px;
+    border-radius: 10px;
+}
+.duvidasright .duvida h3{
+    width: auto;
     cursor: pointer;
-    border-bottom: 2px solid white;
- 
-
-   
+    font-size: 1.7rem;
 }
-.duvida i{
-    font-size: 3rem;
-   
-}
-
 .duvida{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.duvida h3{
-    font-size: 2rem;
- 
-}
+
 .answer{
     overflow: hidden;
     max-height: 0;
-    transition: 0.5s ease
+    transition: 0.5s ease;
 }
 .answer p{
-    padding: 20px 0px;
+    padding: 20px;
     line-height: 3rem;
     font-size: 1.6rem;
+    width: 800px;
+}
+
+
+
+
+.duvidas-left a:hover{
+scale: 1.1
+}
+
+.duvidasright.active .answer{
+    max-height: 300px;
+}
+
+.duvidasright.active h3{
+    color: #D68A00;
+}
+.duvidasright.active img{
+    transform:rotate(180deg) ;
+}
+.duvida img{
+    width: 10px;
+    transition: .5s ease-in-out;
 }
 
 
@@ -131,24 +152,4 @@
     border: none;
     width: 250px;
     font-weight:700 ;
-}
-
-
-.duvidas-left a:hover{
-scale: 1.1
-}
-
-.duvidasright.active .answer{
-    max-height: 300px;
-}
-
-.duvidasright.active h3{
-    color: #D68A00;
-}
-.duvidasright.active img{
-    transform:rotate(180deg) ;
-}
-.duvida img{
-    width: 20px;
-    transition: .5s ease-in-out;
 }

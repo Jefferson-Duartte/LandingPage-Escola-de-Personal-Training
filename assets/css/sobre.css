@@ -9,23 +9,28 @@
 }
 
 .txt-sobre{
-    
-    margin-right: 30px;
-  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .txt-sobre h1{
     font-size: 3.7rem;
     color:#D68A00;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
+}
+.txt-sobre h1 span{
+    color: white;
 }
 
  .txt-sobre p{
     color: white;
-    width: 800px;
+    width: 1000px;
     font-size: 1.7rem;
     line-height: 3.5rem;
+    text-align: center;
 }
 .sobre-img{
     width: 400px;
@@ -36,3 +41,4 @@
     width: 90%;
     border-radius: 5px;
 }
+

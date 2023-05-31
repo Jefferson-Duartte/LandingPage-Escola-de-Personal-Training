@@ -7,7 +7,7 @@
    
 }
 .modulos h1{
-    text-transform: uppercase;
+  
     font-size: 3.7rem;
     color:#D68A00;
     margin-bottom: 20px;
@@ -36,14 +36,20 @@
     margin-top: 20px;
 }
 .modulos a{
-    width: 150px;
+    width: 270px;
     height: 50px;
+    padding: 0px 10px ;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: 3rem;
+
+    font-weight:800 ;
+    font-size: 2.6rem;
     text-decoration: none;
+    text-transform: uppercase;
+
+
     border-radius: 15px;
     border:  1px solid white;
     color: #D68A00;
@@ -54,8 +60,9 @@
     background-color:#D68A00;
     color: #000;
     border: none;
-    width: min(300px,70%);
-    font-weight:700 ;
+    width: min(450px,90%);
+
+    
 }
 
 
