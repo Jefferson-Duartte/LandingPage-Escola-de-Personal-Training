@@ -92,19 +92,19 @@ body{
 }
 
 
-.more-info .especialistas{
+.more-info .info{
     width: 80%;
     text-align: center;
     align-items: center;
 }
 
-.especialistas h4 {
+.info h4 {
     color:#D68A00;
     font-size: 2.7rem;
     width: 350px;
   
 }
-.especialistas p {
+.info p {
     font-size: 1.8rem; 
     width: 300px; 
 }
@@ -253,5 +253,73 @@ body{
 .answer p{
 
     width: 320px;
+}
+
+
+
+.valor{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.valor-left{
+    width: 350px;
+}
+
+.valor-left img{
+    width: 150px;
+}
+.valor-left h3{
+    font-size: 3rem;
+    padding-top: 30px;
+}
+.valor-left h3 span{
+    font-size: 4rem;
+    color: #D68A00;
+
+}
+.valor-left p{
+    padding: 15px;
+}
+
+.valor-left #insc{
+    width: 320px;
+    font-size: 1.7rem;
+}
+.btn-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    gap: 35px;
+}
+.btn-icons p{
+    font-size: 1.3rem;
+}
+
+
+.valor-right{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 0px 0px;
+   
+}
+.valor-right h3 {
+    color:#D68A00;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.valor-right p {
+    padding: 15px 0px 25px 0px;    
+    border-bottom: 2px  solid #D68A00;
+    text-align: center;
 }
 

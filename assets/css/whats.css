@@ -4,10 +4,7 @@
     text-align: center;
     gap: 100px;
     padding: 30px;
-    
-
 }
-
 .whats-txt{
     display: flex;
     flex-direction: column;
@@ -45,8 +42,6 @@
 #btn-whats:hover{
     scale: 1.1;
 }
-
-
 #btn-whats p {
     width: 340px;
     height: 50px;
@@ -63,8 +58,7 @@
 }
 
 #btn-whats p i{
-    font-size: 3rem;
-    
+    font-size: 3rem;  
 }
 
 #insta{
@@ -73,6 +67,7 @@
     justify-content: center;
     text-align: center;
 }
+
 #insta a{
     text-align: center;
     display: flex;
