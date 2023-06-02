@@ -106,7 +106,7 @@ body{
 }
 .info p {
     font-size: 1.8rem; 
-    width: 300px; 
+    width: 340px; 
 }
 
 
@@ -216,7 +216,11 @@ body{
     
 }
 
-
+.aulas-img{
+    width: 100%;
+    padding: 30px 0px;
+    justify-content: center;
+}
 .aulas-img img{
     width: 100%;
 }

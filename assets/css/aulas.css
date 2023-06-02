@@ -1,9 +1,5 @@
-.aulas-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .aulas-img img{
-    padding-top: 30px;
+    width: 100%;
 }
