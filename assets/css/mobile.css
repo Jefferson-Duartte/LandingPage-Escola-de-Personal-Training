@@ -2,9 +2,9 @@ main{
     width: 100%;
     height: 100%;
 }
-body{
 
-}
+
+/* Home Page */
 .home-page img{
     width: 100px;
     
@@ -36,10 +36,10 @@ body{
     top: 83%;
     left: 50%;
 }
+/* Home Page */
 
 
-
-
+/* Cards de Informações */
 .cards-info{
     width: 100%;
     height: 100%;
@@ -57,10 +57,11 @@ body{
 .card-info p{
     width: 90%;
 }
+/* Cards de Informações */
 
 
 
-
+/* Seja um Personal Trainig */
 .txt-sobre{
     width: 100%;
     height: auto;
@@ -70,8 +71,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0;
-}
-    
+}  
 .txt-sobre h1{
     width: 90%;
     text-align: center;
@@ -86,18 +86,15 @@ body{
     text-align: center;
     width: 80%;
 }
-.sobre-img{
-    width: 250px;
-    height: 250px;
-}
+/* Seja um Personal Trainig */
 
 
+/* Mais Informações */
 .more-info .info{
     width: 80%;
     text-align: center;
     align-items: center;
 }
-
 .info h4 {
     color:#D68A00;
     font-size: 2.7rem;
@@ -108,31 +105,10 @@ body{
     font-size: 1.8rem; 
     width: 340px; 
 }
+/* Mais Informações */
 
 
-.for{
-    padding: 30px 0px;
-}
-
-.for h1{
-    width: 100%;
-    padding: 20px;
-    font-size: 2.5rem;
-    text-align: center;
-}
-.for-txt ul li{
-    padding: 20px 0px;
-    width: 80%;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-}
-.for-txt ul li i{
-    z-index: 9;  
-}
-.for-img img{
-    display: none;
-}
+/* Modulos do curso */
 .modulos{
     padding: 30px 0;
 }
@@ -147,7 +123,7 @@ body{
 .modulos img{
     width: 150px;
 }
-
+/* Modulos do curso */
 
 
 
