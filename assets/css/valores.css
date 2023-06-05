@@ -19,7 +19,7 @@
     align-items: center;
     text-align: center;
     gap: 25px;
-    box-shadow: #D68A00 0px 5px 15px 1px;
+    /* box-shadow: #D68A00 0px 5px 15px 1px; */
 }
 .valor-left img{
     width: 120px;
